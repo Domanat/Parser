@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def get_courses():# get courses id
 	courses = []
-	i = 39
+	i = 1
 
 	while True:
 		print('getting couses from page {}'.format(i))
