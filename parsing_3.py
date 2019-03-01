@@ -51,7 +51,7 @@ def get_data(course_id): # get comments for specific course
 	return result
 
 def imp(data):
-	workbook = xlsxwriter.Workbook('partners.xlsx')
+	workbook = xlsxwriter.Workbook('comments.xlsx')
 	worksheet = workbook.add_worksheet()
 
 	courses_id = get_courses()
